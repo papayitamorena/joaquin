@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"  />
+    <link rel="stylesheet" href="style.css">
+    
+    
+    <title>Los amigos de Joaquín</title>
+</head>
+<body>
+    <div class="titulo"> 
+        <h1>Los amigos de Joaquín</h1>
+        <h2>de la A a la Z</h2>
+    </div>
+    
+        <!-- Slider main container -->
+<div class="swiper">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide">
+        <!-- cada slide tiene 9 elementos-->
+        <div class="grid">
+            <div class="grid-item">
+                <div class="img">
+                    <img src="amiks/Arturo.png" alt="Arturo">
+                    <div class="texto">
+                    <h4>Arturo</h4>
+                    <p>Nació en 1997, en la comarca de
+                        Andromalía, su madre, Anastasía,
+                        nunca lo quiso,
+                        pero él era feliz,
+                        porque su padre lo cuidaba
+                        desde cielo.
+                    </p>
+                </div>
+                </div>
+            </div>
+            <div class="grid-item">
+              <div class="img">
+                <img src="amiks/Benicio_.png" alt="Benicio_">
+                <div class="texto">
+                <h4>Benicio</h4>
+                <p>Nació en el 190, pero no de nuestra era,
+                    sino que en el °190, del unvirverso,
+                    cuando la creación se estaba desplegando,
+                    Benicio ya estaba ahí.
+                </p>
+            </div>
+            </div></div>
+            <div class="grid-item">3</div>
+            <div class="grid-item">4</div>
+            <div class="grid-item">5</div>
+            <div class="grid-item">6</div>
+            <div class="grid-item">7</div>
+            <div class="grid-item">8</div>
+            <div class="grid-item">
+              <div class="img">
+                <img src="amiks/ignacio.png" alt="ignacio">
+                <div class="texto">
+                <h4>Igna</h4>
+                <p> No tiene muerte, ni nacimiento,
+                  es parte de la vida, como de la muerte,
+                  es naranja, es verde, pero nunca azul,
+                  es Igna.
+                </p>
+            </div>
+            </div>
+
+            </div>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="grid">
+            <div class="grid-item">
+              <div class="img">
+                <img src="amiks/joaquin.png" alt="joaquin">
+                <div class="texto">
+                <h4>Jyoro</h4>
+                <p>Se dice que su orina es más sagrada que el sol,
+                  viaja por los planetas bendiciendolos con ella,
+                  se dice que donde mea, crece la fortuna y la felicidad.
+                </p>
+            </div>
+            </div>
+            </div>
+            <div class="grid-item">11</div>
+            <div class="grid-item">12</div>
+            <div class="grid-item">
+              <div class="img">
+                <img src="amiks/mauricio.png" alt="mauricio">
+                <div class="texto">
+                <h4>Mj-404</h4>
+                <p>Una de las primeras galaxias del universo,
+                  suele jugar con los planetas.Su corazón es de oro.
+                </p>
+            </div>
+            </div>
+            </div>
+            <div class="grid-item">14</div>
+            <div class="grid-item">15</div>
+            <div class="grid-item">16</div>
+            <div class="grid-item">17</div>
+            <div class="grid-item">18</div>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="grid">
+            <div class="grid-item">19</div>
+            <div class="grid-item">20</div>
+            <div class="grid-item">21</div>
+            <div class="grid-item">22</div>
+            <div class="grid-item">23</div>
+            <div class="grid-item">24</div>
+            <div class="grid-item">25</div>
+            <div class="grid-item">26</div>
+            <div class="grid-item">27</div>
+        </div>
+      </div>
+      ...
+    </div>
+    <!-- If we need pagination -->
+    <div class="swiper-pagination"></div>
+  
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev"></div> 
+    <div class="swiper-button-next"></div>
+  
+    <!-- If we need scrollbar -->
+    <div class="swiper-scrollbar"></div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+    
+<script>
+const swiper = new Swiper('.swiper', {
+  // Optional parameters
+  direction: 'horizontal',
+  loop: true,
+
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+  },
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+  // And if we need scrollbar
+  scrollbar: {
+    el: '.swiper-scrollbar',
+  },
+});
+    </script>
+</body>
+</html>

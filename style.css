@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+.swiper {
+    width: 900px;
+    height: 100vh;
+     
+    
+}
+
+.swiper-wrapper {
+    
+    width: 100%;
+    
+}
+.swiper-slide{
+    
+    height: 100vh;
+    width: 100%;
+    
+
+}
+.img{
+    width: auto;
+    object-fit: fill;
+    display: flex;
+    flex-direction: row;    
+    align-items: top;
+    margin: 0;
+    
+    
+    
+}
+
+.img h4{
+
+    font-size: 18px;
+    text-align: center;
+    justify-content: top;
+    align-items: top;
+    /*border: 1px solid black;*/
+    margin: auto;
+    width:95%;
+}
+.texto p{
+    height: 100px;
+    font-size: 8px;
+    text-align: justify;
+    justify-content: center;
+    align-items: center;     
+    padding: 8px;
+
+}
+.texto{
+    
+    height: 160px;
+    width: 100%;
+    
+    margin: 6px auto;
+    
+
+}
+img{
+    width: 120px;
+    height: 140px;
+    object-fit: cover;
+    /*border: 1px dotted black;*/
+    padding: 8px;
+    margin: 6px 6px 6px 0px;
+    /* background transparente */
+    
+}
+.titulo{
+    border: 1px solid black;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    padding-bottom: 40px;
+    margin: 40px;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.grid-item{
+    border: 1px solid black;
+    padding: 15px;
+    margin: 20px;
+    text-align: top;
+    font-family: 'Roboto Mono', monospace;
+    width: 210px;
+    height: 150px;
+}
+
+.grid-item:hover, img:hover{
+    background-color: #f2f2f2;
+    transition: 0.5s;
+}
+
+
+
+
+
+
+/* media adapt screen */
+@media screen and (max-width: 900px){
+    .swiper{
+        width: 100%;
+        height: 100vh;
+    }
+    .swiper-slide{
+        width: 100%;
+        height: 100vh;
+    }
+    .grid{
+        display: grid;
+        
+        grid-auto-flow: row;
+    }
+   
+}
